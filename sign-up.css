@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+}
+
+body {
+    margin: 0;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    min-height: 100vh;
+}
+
+.right img {
+    width: 790px;
+    height: 1106px;
+    object-fit: cover;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h1 {
+    width: 512px;
+    height: 120px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -2%;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.left p {
+    width: 512px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0%;
+    color: #667085;
+}
+
+.left a {
+    width: 512px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0%;
+    color: blueviolet;
+}
+
+form,
+label,
+legend {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 20px;
+}
+
+input,
+textarea {
+    padding: 12px 16px 12px;
+    width: 512px;
+    height: 48px;
+    border-radius: 8px;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 2px solid #D0D5DD
+}
+
+label {
+    margin-bottom: -18px;
+}
+
+.phone-input {
+    display: flex;
+    align-items: center;
+    border: 2px solid #D0D5DD;
+    gap: 12px;
+    background-color: #fff;
+    padding: 12px 16px 12px;
+    width: 512px;
+    height: 48px;
+    border-radius: 8px;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 20px;
+    margin-bottom: 14px;
+}
+
+.phone-input select,
+.phone-input input {
+    border: none;
+    font-size: 14px;
+    color: #374151;
+    outline: none;
+    background: transparent;
+    align-items: center;
+}
+
+.phone-input input {
+    margin-left: -15px;
+}
+
+.phone-input select {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+    margin-bottom: 14px;
+}
+
+fieldset {
+    max-width: 512px;
+    max-height: 140px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    border: none;
+    margin-top: 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+fieldset label {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 0;
+}
+
+fieldset input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #7F56D9;
+    margin: 0;
+    border-radius: 6px;
+    border: 1px solid #D0D5DD;
+}
+
+button {
+    width: 512px;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: #7F56D9;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
